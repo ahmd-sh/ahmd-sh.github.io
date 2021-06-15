@@ -1753,7 +1753,9 @@ input, select, textarea {
 			font-size: inherit;
 		}
 
-		#main article .close-shortcut {
+		#main article .close-shortcut,
+		#shortcut-text
+		{
 			display: none;
 		}
 
