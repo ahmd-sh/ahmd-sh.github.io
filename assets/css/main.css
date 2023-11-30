@@ -719,6 +719,12 @@ input, select, textarea {
 				margin-right: auto;
 			}
 
+			.image.main.experience img {
+				display: block;
+				margin: 2.5rem auto;
+				width: 35%;
+			}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -1759,4 +1765,12 @@ input, select, textarea {
 			display: none;
 		}
 
+	}
+
+/* Added Styles */
+
+	#experience section h3, 
+	#experience section strong {
+		display: inline-block;
+		margin-right: 5px;
 	}
