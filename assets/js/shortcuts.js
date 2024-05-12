@@ -126,7 +126,7 @@ document.onkeydown = keyDownEvent => {
     if (!projectsModalView && !experienceModalView && !resumeModalView) {
         // GitHub
         if (isKeyPressed['g'] && !keyDownEvent.metaKey) {
-            window.open('https://github.com/AhmedShaikhSW', '_blank').focus();
+            window.open('https://github.com/ahmd-sh/', '_blank').focus();
             
             // Manually disable key due to shift in focus
             isKeyPressed['g'] = false;
@@ -134,10 +134,18 @@ document.onkeydown = keyDownEvent => {
 
         // LinkedIn
         if (isKeyPressed['l'] && !keyDownEvent.metaKey) {
-            window.open('https://www.linkedin.com/in/ahmedshaikhsw/', '_blank').focus();
+            window.open('https://www.linkedin.com/in/ahmd-sh/', '_blank').focus();
             
             // Manually disable key due to shift in focus
             isKeyPressed['l'] = false;
+        }
+
+        // LeetCode
+        if (isKeyPressed['c'] && !keyDownEvent.metaKey) {
+            window.open('https://leetcode.com/Ahmed_Shaikh/', '_blank').focus();
+            
+            // Manually disable key due to shift in focus
+            isKeyPressed['c'] = false;
         }
 
         // Email
@@ -146,33 +154,6 @@ document.onkeydown = keyDownEvent => {
             
             // Manually disable key due to shift in focus
             isKeyPressed['m'] = false;
-        }
-    }
-
-    // Project Links
-    if (projectsModalView) {
-        // ScriptIt
-        if (isKeyPressed['s'] && !keyDownEvent.metaKey) {
-            window.open('https://github.com/sameerahmed15/ScriptIt', '_blank').focus();
-            
-            // Manually disable key due to shift in focus
-            isKeyPressed['s'] = false;
-        }
-
-        // Facial Recognition
-        if (isKeyPressed['f'] && !keyDownEvent.metaKey) {
-            window.open('https://github.com/AhmedShaikhSW/facerec', '_blank').focus();
-            
-            // Manually disable key due to shift in focus
-            isKeyPressed['f'] = false;
-        }
-
-        // Cryptography Ciphers
-        if (isKeyPressed['c'] && !keyDownEvent.metaKey) {
-            window.open('https://github.com/AhmedShaikhSW/ciphers-python3', '_blank').focus();
-            
-            // Manually disable key due to shift in focus
-            isKeyPressed['c'] = false;
         }
     }
 
